@@ -1,1 +1,0 @@
-# sedefoglu.github.io
