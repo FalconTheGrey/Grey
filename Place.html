@@ -29,7 +29,7 @@
         const X_OFFSET=0
         const Y_OFFSET=0
 
-        const X_IN_PLACE=1073
+        const X_IN_PLACE=1072
         const Y_IN_PLACE=121
 
         function getMousePos(canvas, evt) {
@@ -102,17 +102,17 @@
             let circle_y = y*Y_PIXELS+Y_OFFSET+Y_PIXELS/2;
             fg.beginPath()
             fg.strokeStyle = 'red';
-            fg.arc(circle_x, circle_y, X_PIXELS-6, 0, 2 * Math.PI, false);
+            fg.arc(circle_x, circle_y, X_PIXELS-1, 0, 1 * Math.PI, false);
             fg.stroke()
 
             fg.beginPath()
             fg.strokeStyle = 'white';
-            fg.arc(circle_x, circle_y, X_PIXELS-4, 0, 2 * Math.PI, false);
+            fg.arc(circle_x, circle_y, X_PIXELS-1, 0, 1 * Math.PI, false);
             fg.stroke()
 
             fg.beginPath()
             fg.strokeStyle = 'black';
-            fg.arc(circle_x, circle_y, X_PIXELS, 0, 2 * Math.PI, false);
+            fg.arc(circle_x, circle_y, X_PIXELS, 0, 1 * Math.PI, false);
             fg.stroke()
 
         });
